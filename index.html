@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Juliano TOHA — Analyste Programmeur, Graphiste & Maintenancier. Portfolio professionnel présentant mes compétences, projets et services.">
+    <meta name="keywords" content="développeur web, graphiste, maintenance informatique, Bénin, freelance, portfolio">
+    <meta name="author" content="Juliano TOHA Juliano M. T. TOHA">
+    <meta property="og:title" content="Juliano TOHA | Portfolio Professionnel">
+    <meta property="og:description" content="Analyste Programmeur, Graphiste & Maintenancier — Portfolio Professionnel">
+    <title>Juliano TOHA | Portfolio Professionnel</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     NAVBAR
+============================================================ -->
+<nav id="navbar" class="transparent">
+    <div class="nav-inner">
+        <!-- Logo -->
+        <a href="#hero" class="nav-logo">
+            <div class="logo-img-wrap">
+                <img src="images/logo.png" alt="Logo">
+            </div>
+            <span>Juliano<span class="logo-text-accent">_TOHA</span></span>
+        </a>
+
+        <!-- Desktop links -->
+        <div class="nav-links">
+            <a href="#hero"         class="nav-link active">Accueil</a>
+            <a href="#about"        class="nav-link">À Propos</a>
+            <a href="#skills"       class="nav-link">Compétences</a>
+            <a href="#services"     class="nav-link">Services</a>
+            <a href="#portfolio"    class="nav-link">Portfolio</a>
+            <a href="#testimonials" class="nav-link">Témoignages</a>
+            <a href="#parcours"     class="nav-link">Parcours</a>
+            <a href="#contact"      class="nav-link">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+            <button class="theme-toggle" id="themeToggle" title="Basculer le thème" aria-label="Thème">
+                <i class="fas fa-moon" id="themeIcon"></i>
+            </button>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+    <a href="#hero"         class="mob-link">Accueil</a>
+    <a href="#about"        class="mob-link">À Propos</a>
+    <a href="#skills"       class="mob-link">Compétences</a>
+    <a href="#services"     class="mob-link">Services</a>
+    <a href="#portfolio"    class="mob-link">Portfolio</a>
+    <a href="#testimonials" class="mob-link">Témoignages</a>
+    <a href="#parcours"     class="mob-link">Parcours</a>
+    <a href="#contact"      class="mob-link">Contact</a>
+</div>
+
+<!-- ============================================================
+     HERO
+============================================================ -->
+<section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="orb hero-orb-1"></div>
+    <div class="orb hero-orb-2"></div>
+
+    <div class="container">
+        <div class="hero-inner">
+            <!-- Content -->
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="hero-badge-dot"></span>
+                    Disponible pour des projets freelance
+                </div>
+
+                <h1 class="hero-name">
+                    Juliano<br><span class="gradient-text">TOHA</span>
+                </h1>
+
+                <div class="hero-title-wrap">
+                    Je suis&nbsp;<span class="hero-title-typed" id="typedText"></span><span class="cursor-blink"></span>
+                </div>
+
+                <p class="hero-desc">
+                    Analyste programmeur, graphiste et maintenancier passionné par la création
+                    de solutions numériques modernes. Étudiant en Terminale IMI au CPET « Les Palmiers » de Togba — Bénin.
+                </p>
+
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Voir mes projets
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i> Me contacter
+                    </a>
+                    <a href="#" class="btn btn-ghost" id="downloadCv">
+                        <i class="fas fa-download"></i> Mon CV
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">3+</span>
+                        <span class="stat-label">Ans d'expérience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">15+</span>
+                        <span class="stat-label">Projets réalisés</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">5</span>
+                        <span class="stat-label">Domaines maîtrisés</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Visual -->
+            <div class="hero-visual">
+                <div class="hero-photo-wrap">
+                    <div class="hero-photo-ring hero-photo-ring-1"></div>
+                    <div class="hero-photo-ring hero-photo-ring-2"></div>
+
+                    <div class="hero-photo-circle">
+                        <img src="images/photo.jpg" alt="Juliano TOHA TOHA">
+                    </div>
+
+                    <!-- Floating badges -->
+                    <div class="float-badge float-badge-1">
+                        <i class="fas fa-code"></i> Dev Web
+                    </div>
+                    <div class="float-badge float-badge-2">
+                        <i class="fas fa-paint-brush"></i> Graphisme
+                    </div>
+                    <div class="float-badge float-badge-3">
+                        <i class="fas fa-network-wired"></i> Réseaux
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-down">
+        <div class="scroll-dot"></div>
+        <span>Défiler</span>
+    </div>
+</section>
+
+<!-- ============================================================
+     ABOUT
+============================================================ -->
+<section id="about">
+    <div class="container">
+        <div class="about-grid">
+            <!-- Photo -->
+            <div class="reveal-left">
+                <div class="about-img-wrap">
+                    <div class="about-img-box">
+                        <img src="images/about.jpg" alt="À propos">
+                    </div>
+                    <div class="about-corner-badge">
+                        <span class="num">3+</span>
+                        <span class="lbl">Ans d'XP</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Content -->
+            <div class="about-content reveal-right">
+                <span class="section-tag">À Propos de Moi</span>
+                <h2>Passionné par la<br><span class="gradient-text">technologie & le design</span></h2>
+                <p>
+                    Je suis Michel-Ange Juliano M. T. TOHA, étudiant en Terminale IMI (Installation et Maintenance Informatique) au CPET « Les Palmiers » de Togba, au Bénin. Depuis 2021, j'exerce également en tant que freelance.
+                </p>
+                <p>
+                    Passionné par la création web, le design graphique et la maintenance informatique, je m'efforce d'offrir des solutions de qualité professionnelle à chaque projet.
+                </p>
+
+                <div class="info-list">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span><strong>Localisation :</strong> Togba, Bénin</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span><strong>Téléphone :</strong> +229 0167 957 342</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span><strong>Email :</strong> julianodigitaltech001@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span><strong>Formation :</strong> Terminale IMI au CPET "Les Palmiers"</span>
+                    </div>
+                </div>
+
+                <div class="trait-pills">
+                    <span class="trait-pill">Dextérité</span>
+                    <span class="trait-pill">Sens de l'esthétisme</span>
+                    <span class="trait-pill">Travail sous pression</span>
+                    <span class="trait-pill">Apprentissage rapide</span>
+                    <span class="trait-pill">Esprit d'équipe</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     SKILLS
+============================================================ -->
+<section id="skills">
+    <div class="container">
+        <div class="section-title-wrap reveal">
+            <span class="section-tag">Mes compétences</span>
+            <h2>Ce que je <span class="gradient-text">maîtrise</span></h2>
+            <div class="divider"></div>
+            <p>Un ensemble de compétences transversales pour répondre à vos besoins numériques.</p>
+        </div>
+
+        <div class="skills-grid">
+            <!-- Web & Mobile -->
+            <div class="skill-card reveal">
+                <div class="skill-card-icon"><i class="fas fa-code"></i></div>
+                <h3>Web & Mobile</h3>
+                <div class="prog-list">
+                    <div class="prog-item"><label><span>HTML5 & CSS3</span><span>90%</span></label><div class="prog-bar"><div class="prog-fill" data-w="90"></div></div></div>
+                    <div class="prog-item"><label><span>JavaScript ES6+</span><span>80%</span></label><div class="prog-bar"><div class="prog-fill" data-w="80"></div></div></div>
+                    <div class="prog-item"><label><span>PHP & MySQL</span><span>70%</span></label><div class="prog-bar"><div class="prog-fill" data-w="70"></div></div></div>
+                    <div class="prog-item"><label><span>Bootstrap 5</span><span>85%</span></label><div class="prog-bar"><div class="prog-fill" data-w="85"></div></div></div>
+                </div>
+            </div>
+            <!-- Design Graphique -->
+            <div class="skill-card reveal">
+                <div class="skill-card-icon"><i class="fas fa-paint-brush"></i></div>
+                <h3>Design Graphique</h3>
+                <div class="prog-list">
+                    <div class="prog-item"><label><span>Adobe Photoshop</span><span>85%</span></label><div class="prog-bar"><div class="prog-fill" data-w="85"></div></div></div>
+                    <div class="prog-item"><label><span>Adobe Illustrator</span><span>75%</span></label><div class="prog-bar"><div class="prog-fill" data-w="75"></div></div></div>
+                    <div class="prog-item"><label><span>Canva & Figma</span><span>88%</span></label><div class="prog-bar"><div class="prog-fill" data-w="88"></div></div></div>
+                    <div class="prog-item"><label><span>UI/UX Design</span><span>78%</span></label><div class="prog-bar"><div class="prog-fill" data-w="78"></div></div></div>
+                </div>
+            </div>
+            <!-- Montage Vidéo -->
+            <div class="skill-card reveal">
+                <div class="skill-card-icon"><i class="fas fa-video"></i></div>
+                <h3>Montage Vidéo</h3>
+                <div class="prog-list">
+                    <div class="prog-item"><label><span>CapCut</span><span>90%</span></label><div class="prog-bar"><div class="prog-fill" data-w="90"></div></div></div>
+                    <div class="prog-item"><label><span>Filmora</span><span>80%</span></label><div class="prog-bar"><div class="prog-fill" data-w="80"></div></div></div>
+                    <div class="prog-item"><label><span>Motion Graphics</span><span>65%</span></label><div class="prog-bar"><div class="prog-fill" data-w="65"></div></div></div>
+                    <div class="prog-item"><label><span>Effets spéciaux</span><span>70%</span></label><div class="prog-bar"><div class="prog-fill" data-w="70"></div></div></div>
+                </div>
+            </div>
+            <!-- IA -->
+            <div class="skill-card reveal">
+                <div class="skill-card-icon"><i class="fas fa-robot"></i></div>
+                <h3>IA & Outils Intelligents</h3>
+                <div class="prog-list">
+                    <div class="prog-item"><label><span>Prompt Engineering</span><span>88%</span></label><div class="prog-bar"><div class="prog-fill" data-w="88"></div></div></div>
+                    <div class="prog-item"><label><span>Midjourney & IA image</span><span>80%</span></label><div class="prog-bar"><div class="prog-fill" data-w="80"></div></div></div>
+                    <div class="prog-item"><label><span>Automatisation IA</span><span>72%</span></label><div class="prog-bar"><div class="prog-fill" data-w="72"></div></div></div>
+                    <div class="prog-item"><label><span>ChatGPT / DeepSeek</span><span>92%</span></label><div class="prog-bar"><div class="prog-fill" data-w="92"></div></div></div>
+                </div>
+            </div>
+            <!-- Maintenance -->
+            <div class="skill-card reveal">
+                <div class="skill-card-icon"><i class="fas fa-tools"></i></div>
+                <h3>Maintenance Informatique</h3>
+                <div class="prog-list">
+                    <div class="prog-item"><label><span>Maintenance préventive</span><span>88%</span></label><div class="prog-bar"><div class="prog-fill" data-w="88"></div></div></div>
+                    <div class="prog-item"><label><span>Dépannage logiciel</span><span>85%</span></label><div class="prog-bar"><div class="prog-fill" data-w="85"></div></div></div>
+                    <div class="prog-item"><label><span>Réseaux informatiques</span><span>78%</span></label><div class="prog-bar"><div class="prog-fill" data-w="78"></div></div></div>
+                    <div class="prog-item"><label><span>Sécurité systèmes</span><span>72%</span></label><div class="prog-bar"><div class="prog-fill" data-w="72"></div></div></div>
+                </div>
+            </div>
+            <!-- Expérience -->
+            <div class="skill-card reveal">
+                <div class="skill-card-icon"><i class="fas fa-briefcase"></i></div>
+                <h3>Expérience Pro.</h3>
+                <div class="prog-list">
+                    <div class="prog-item"><label><span>Stage CEMIRAE 2023–24</span><span>✓</span></label><div class="prog-bar"><div class="prog-fill" data-w="100"></div></div></div>
+                    <div class="prog-item"><label><span>Projets Web Freelance</span><span>15+</span></label><div class="prog-bar"><div class="prog-fill" data-w="90"></div></div></div>
+                    <div class="prog-item"><label><span>Design & Identité visuelle</span><span>20+</span></label><div class="prog-bar"><div class="prog-fill" data-w="85"></div></div></div>
+                    <div class="prog-item"><label><span>Maintenance parc info</span><span>✓</span></label><div class="prog-bar"><div class="prog-fill" data-w="88"></div></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     SERVICES
+============================================================ -->
+<section id="services">
+    <div class="container">
+        <div class="section-title-wrap reveal">
+            <span class="section-tag">Mes services</span>
+            <h2>Ce que je peux faire<br><span class="gradient-text">pour vous</span></h2>
+            <div class="divider"></div>
+            <p>Des solutions complètes pour donner vie à vos projets numériques.</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card reveal">
+                <div class="svc-icon indigo"><i class="fas fa-globe"></i></div>
+                <h3>Développement Web</h3>
+                <p>Création de sites web modernes, responsives et performants. De la page vitrine au site e-commerce, adapté à vos besoins.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="svc-icon purple"><i class="fas fa-terminal"></i></div>
+                <h3>Applications & Scripts</h3>
+                <p>Développement d'outils sur mesure, scripts d'automatisation et applications web pour optimiser vos processus.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="svc-icon cyan"><i class="fas fa-vector-square"></i></div>
+                <h3>Design Graphique</h3>
+                <p>Création d'identités visuelles, logos, affiches, supports print et digital, avec un sens esthétique affûté.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="svc-icon green"><i class="fas fa-network-wired"></i></div>
+                <h3>Réseaux Informatiques</h3>
+                <p>Configuration, installation et maintenance de réseaux informatiques locaux. Sécurisation et optimisation de l'infrastructure.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="svc-icon orange"><i class="fas fa-headset"></i></div>
+                <h3>Assistance Technique</h3>
+                <p>Support informatique, dépannage logiciel et matériel, maintenance préventive et corrective pour particuliers et entreprises.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="svc-icon pink"><i class="fas fa-film"></i></div>
+                <h3>Montage Vidéo</h3>
+                <p>Réalisation et montage de contenus vidéo professionnels — publicités, clips, tutoriels et motion graphics.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     PORTFOLIO
+============================================================ -->
+<section id="portfolio">
+    <div class="container">
+        <div class="section-title-wrap reveal">
+            <span class="section-tag">Mes réalisations</span>
+            <h2>Portfolio & <span class="gradient-text">Projets</span></h2>
+            <div class="divider"></div>
+            <p>Quelques-uns de mes travaux récents. Chaque projet raconte une histoire.</p>
+        </div>
+
+        <div class="port-filters reveal">
+            <button class="filter-btn active" data-filter="all">Tout</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+            <button class="filter-btn" data-filter="reseau">Réseaux</button>
+            <button class="filter-btn" data-filter="video">Vidéo</button>
+        </div>
+
+        <div class="portfolio-grid" id="portfolioGrid">
+            <!-- Projects injected by JS -->
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Modal -->
+<div class="modal-overlay" id="portModal">
+    <div class="modal-box">
+        <button class="modal-close" id="closeModal"><i class="fas fa-times"></i></button>
+        <div id="modalImgWrap"></div>
+        <div class="modal-body">
+            <h2 id="modalTitle"></h2>
+            <div class="modal-tags" id="modalTags"></div>
+            <p id="modalDesc"></p>
+            <a href="#" class="btn btn-primary" id="modalLink" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Voir le projet
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- ============================================================
+     TESTIMONIALS
+============================================================ -->
+<section id="testimonials">
+    <div class="container">
+        <div class="section-title-wrap reveal">
+            <span class="section-tag">Témoignages</span>
+            <h2>Ce que disent<br><span class="gradient-text">mes clients</span></h2>
+            <div class="divider"></div>
+        </div>
+
+        <div class="testimonials-wrap reveal">
+            <!-- Flèches de navigation -->
+            <div class="testi-arrows">
+                <button class="testi-arrow" id="testiPrev" aria-label="Précédent"><i class="fas fa-chevron-left"></i></button>
+                <button class="testi-arrow" id="testiNext" aria-label="Suivant"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="testimonials-track" id="testiTrack">
+                <div class="testi-card">
+                    <div class="testi-quote">"</div>
+                    <div class="testi-stars">★★★★★</div>
+                    <p>Juliano TOHA a réalisé notre site vitrine en un temps record. La qualité du design et du code est vraiment au niveau professionnel. Je le recommande vivement !</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar">PT</div>
+                        <div class="testi-author-info">
+                            <p class="name">Mr Pascal TOHA</p>
+                            <p class="role">Directeur Executif de LIB ONG</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-card">
+                    <div class="testi-quote">"</div>
+                    <div class="testi-stars">★★★★★</div>
+                    <p>Juliano TOHA a réalisé notre site vitrine en un temps record. La qualité du design est vraiment au niveau professionnel. Je vous le recommande vivement !</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar">NA</div>
+                        <div class="testi-author-info">
+                            <p class="name">Natacha ALIBGONTIN</p>
+                            <p class="role">Cosméticienne & PDG de NOANA Beauty</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-card">
+                    <div class="testi-quote">"</div>
+                    <div class="testi-stars">★★★★☆</div>
+                    <p>Très bon technicien informatique. Il a résolu nos problèmes d'equipement informatique rapidement et efficacement. Sérieux, ponctuel et compétent.</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar">FA</div>
+                        <div class="testi-author-info">
+                            <p class="name">Mr Franck AHOSSI</p>
+                            <p class="role">Fondateur du CPET "Les palmiers"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-card">
+                    <div class="testi-quote">"</div>
+                    <div class="testi-stars">★★★★★</div>
+                    <p>Le montage vidéo de nos publicités était d'une qualité remarquable. Juliano TOHA sait exactement comment captiver l'attention du public.</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar">AN</div>
+                        <div class="testi-author-info">
+                            <p class="name">Natacha ALIGNONTIN</p>
+                            <p class="role">Cosméticienne & PDG de NOANA Beauty</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-nav" id="testiNav"></div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     PARCOURS
+============================================================ -->
+<section id="parcours">
+    <div class="container">
+        <div class="section-title-wrap reveal">
+            <span class="section-tag">Mon parcours</span>
+            <h2>Expérience &<br><span class="gradient-text">Formation</span></h2>
+            <div class="divider"></div>
+        </div>
+
+        <div class="timeline">
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                    <span class="tl-date">2023 – 2024</span>
+                    <h3>Stage Professionnel</h3>
+                    <h4>CEMIRAE</h4>
+                    <p>Stage en Informatique de Management et d'Ingénierie. Maintenance de systèmes informatiques, support technique et gestion de parc informatique.</p>
+                </div>
+            </div>
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                    <span class="tl-date">2023 – 2026</span>
+                    <h3>Étudiant en IMI</h3>
+                    <h4>CPET « Les Palmiers », Togba</h4>
+                    <p>Formation en Installation et Maintenance Informatique. Acquisition de compétences en développement, design, maintenance et gestion de projets.</p>
+                </div>
+            </div>
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                    <span class="tl-date">2021 – Présent</span>
+                    <h3>Freelance</h3>
+                    <h4>Développeur & Graphiste Indépendant</h4>
+                    <p>Réalisation de sites web, création d'identités visuelles, design d'interfaces et montage vidéo pour divers clients au Bénin et à l'international.</p>
+                </div>
+            </div>
+            <div class="tl-item reveal">
+                <div class="tl-dot"></div>
+                <div class="tl-content">
+                    <span class="tl-date">Continue</span>
+                    <h3>Auto-Formation</h3>
+                    <h4>Technologies Modernes</h4>
+                    <p>Apprentissage autonome des dernières technologies web, outils de design, IA et frameworks modernes pour rester à la pointe de l'innovation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     LOISIRS
+============================================================ -->
+<section id="loisirs">
+    <div class="container">
+        <div class="section-title-wrap reveal">
+            <span class="section-tag">Loisirs & Personnalité</span>
+            <h2>Au-delà du <span class="gradient-text">code</span></h2>
+            <div class="divider"></div>
+        </div>
+
+        <div class="hobbies-grid">
+            <div class="hobby-card reveal">
+                <span class="hobby-icon">🏀</span>
+                <h3>Basketball</h3>
+                <p>Passionné de basketball, j'aime le travail d'équipe et la stratégie qui développent coordination et esprit compétitif.</p>
+            </div>
+            <div class="hobby-card reveal">
+                <span class="hobby-icon">🥋</span>
+                <h3>Arts Martiaux</h3>
+                <p>Pratique des arts martiaux pour la discipline, la maîtrise de soi et le développement physique et mental.</p>
+            </div>
+            <div class="hobby-card reveal">
+                <span class="hobby-icon">🎼</span>
+                <h3>Musique Classique</h3>
+                <p>Amateur de musique classique qui apporte calme, concentration et inspiration créative dans mon travail.</p>
+            </div>
+            <div class="hobby-card reveal">
+                <span class="hobby-icon">🍰</span>
+                <h3>Pâtisserie</h3>
+                <p>La pâtisserie comme expression créative, où précision et patience créent des résultats délicieux et esthétiques.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+============================================================ -->
+<section id="contact">
+    <div class="container">
+        <div class="section-title-wrap reveal">
+            <span class="section-tag">Me contacter</span>
+            <h2>Travaillons<br><span class="gradient-text">ensemble</span></h2>
+            <div class="divider"></div>
+            <p>Disponible pour des stages, projets freelance ou collaborations. N'hésitez pas !</p>
+        </div>
+
+        <div class="contact-grid">
+            <!-- Info -->
+            <div class="contact-info reveal-left">
+                <h3>Entrons en contact</h3>
+                <p>Je suis ouvert à toutes les opportunités professionnelles. Parlons de votre projet.</p>
+
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="ci-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="ci-text">
+                            <label>Téléphone / WhatsApp</label>
+                            <span>+229 0167 957 342</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="ci-text">
+                            <label>Email</label>
+                            <span>julianodigitaltech001@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="ci-text">
+                            <label>Localisation</label>
+                            <span>Cotonou, Littoral, Bénin 🇧🇯</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="ci-text">
+                            <label>Formation</label>
+                            <span>CPET « Les Palmiers », Togba</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="socials">
+                    <a href="https://wa.me/2290167957342" target="_blank" class="social-btn" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="social-btn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-btn" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-btn" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-btn" title="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#" class="social-btn" title="Facebook"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <!-- Form -->
+            <div class="contact-form-wrap reveal-right">
+                <h3>Envoyez-moi un message</h3>
+                <div class="form-row">
+                    <div class="form-group" id="nameGroup">
+                        <label for="cName">Votre nom *</label>
+                        <input type="text" id="cName" placeholder="ex: Jean Dupont">
+                        <span class="form-error" id="nameErr">Veuillez entrer votre nom.</span>
+                    </div>
+                    <div class="form-group" id="emailGroup">
+                        <label for="cEmail">Votre email *</label>
+                        <input type="email" id="cEmail" placeholder="ex: jean@email.com">
+                        <span class="form-error" id="emailErr">Entrez un email valide.</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="cSubject">Sujet</label>
+                    <input type="text" id="cSubject" placeholder="ex: Création site web">
+                </div>
+                <div class="form-group" id="msgGroup">
+                    <label for="cMsg">Votre message *</label>
+                    <textarea id="cMsg" rows="5" placeholder="Décrivez votre projet ou votre demande..."></textarea>
+                    <span class="form-error" id="msgErr">Veuillez entrer votre message.</span>
+                </div>
+                <button class="btn btn-primary" id="submitBtn" style="width:100%; justify-content:center;">
+                    <i class="fas fa-paper-plane"></i> Envoyer le message
+                </button>
+                <div class="form-success" id="formSuccess">
+                    <i class="fas fa-check-circle"></i> Message envoyé ! Je vous répondrai très bientôt.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer>
+    <div class="container">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="nav-logo">
+                    <div class="logo-img-wrap">
+                        <!-- Remplacez par: <img src="images/logo-footer.png" alt="Logo"> -->
+                        MJT
+                    </div>
+                    <span>Michel<span class="logo-text-accent">-Ange</span> TOHA</span>
+                </div>
+                <p>Développeur web, graphiste et maintenancier freelance basé au Bénin. Créateur de solutions numériques modernes.</p>
+                <div class="socials">
+                    <a href="https://wa.me/2290167957342" target="_blank" class="social-btn"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#hero">Accueil</a></li>
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Développement Web</a></li>
+                    <li><a href="#services">Design Graphique</a></li>
+                    <li><a href="#services">Montage Vidéo</a></li>
+                    <li><a href="#services">Réseaux Informatiques</a></li>
+                    <li><a href="#services">Assistance Technique</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="footerYear"></span> <span>Juliano TOHA Juliano M. T. TOHA</span>. Tous droits réservés.</p>
+            <p>Conçu avec <span>♥</span> et du code</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to top -->
+<button id="back-top" title="Retour en haut"><i class="fas fa-chevron-up"></i></button>
+
+<!-- ============================================================
+     JAVASCRIPT
+============================================================ -->
+<script src="script.js"></script>
+</body>
+</html>
